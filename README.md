@@ -110,8 +110,9 @@ You can also select the level of notifications you want to receive.
   "notification_level": 1
 }
 ```
-Level 1 means you receive successful scheduling and check-in messages and all messages in later levels.\
-Level 2 means you receive only error messages (failed scheduling and check-ins).
+Level 1 means you receive successful scheduling messages and all messages in later levels.\
+Level 2 means you receive successful check-in messages and all messages in later levels.\
+Level 3 means you receive only error messages (failed scheduling and check-ins).
 
 #### Test The Notifications
 To test if the notification urls work, you can run the following command
