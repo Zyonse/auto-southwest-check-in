@@ -36,5 +36,6 @@ class CheckInError(Exception):
 
 
 class NotificationLevel(IntEnum):
-    INFO = 1
-    ERROR = 2
+    SCHEDULED = 1
+    CHECKIN = 2
+    ERROR = 3
